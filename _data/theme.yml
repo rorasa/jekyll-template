@@ -4,8 +4,8 @@ color:
   primary: FED136
   secondary: 0216B1
   dark: 574712
-  dark-gray: 444444
-  light: 888888
+  darkgray: 444444
+  lightgray: 888888
 
 font:
   primary: '"Open Sans", Arial, sans-serif'

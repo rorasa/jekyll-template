@@ -18,7 +18,7 @@
 .home-menu {
   padding-top: 0em;
   padding-bottom: 0em;
-  padding-left: 50px;
+  padding-left: 2em;
   padding-right: 2em;
   margin-bottom: 1em;
   box-shadow: 0 1px 1px rgba(0,0,0,0.3);
@@ -150,6 +150,112 @@
     display: inline-block;
   }
 }
+
+/*
+ * --- SPLASH STYLES ---
+ */
+
+ .splash-container {
+   background: #{{ site.data.theme.color.primary }};
+   z-index: 1;
+   overflow: hidden;
+   width: 100%;
+   height: 88%;
+   top: 0;
+   left: 0;
+   position: fixed !important;
+ }
+
+ .splash {
+   width: 80%;
+   height: 50%;
+   margin: auto;
+   position: absolute;
+   top: 100px; left: 0; bottom: 0; right: 0;
+   text-align: center;
+   /*text-transform: uppercase;*/
+ }
+
+ .splash-head {
+   font-size: 2.4em;
+   font-weight: bold;
+   color: #{{ site.data.theme.color.dark }};
+   /*border: 3px solid white;*/
+   padding: 0.5em 0.5em;
+   font-weight: 200;
+   /*border-radius: 5px;*/
+   /*line-height: 1em;*/
+ }
+
+ .splash-subhead {
+   color: #{{ site.data.theme.color.dark }};;
+   letter-spacing: 0.05em;
+   opacity: 0.8;
+ }
+
+ /*
+  * --- CONTENT STYLES ---
+  */
+.content-wrapper {
+  /* used for scroll-over effect */
+  position: absolute;
+  top: 87%;
+  width: 100%;
+  min-height: 12%;
+  z-index: 2;
+  background: white;
+}
+
+.content {
+  color: #{{ site.data.theme.color.lightgray }};
+  padding-top: 2em;
+}
+
+.content h1 {
+  color: #{{ site.data.theme.color.dark }};
+  margin: 1em 0 1em;
+}
+
+.content h2 {
+  color: #{{ site.data.theme.color.dark }};
+}
+
+.content .ribbon {
+  color: white;
+}
+
+.content .ribbon h1,h2{
+  color: #{{ site.data.theme.color.primary }};
+}
+
+.ribbon {
+  background: #{{ site.data.theme.color.secondary }};
+}
+
+.l-box {
+    padding: 3em;
+}
+
+.l-box-lrg {
+    padding: 4em;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.is-center {
+  text-align: center;
+}
+
+/*
+ * --- FOOTER STYLES ---
+ */
+
+ .footer {
+   background: #{{ site.data.theme.color.secondary }};
+   color: white;
+   text-align: center;
+   padding-top: 2em;
+   padding-bottom: 2em;
+ }
 
 /*
  * --- TABLET MEDIA QUERIES ---
