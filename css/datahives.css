@@ -1,3 +1,5 @@
+---
+---
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -14,17 +16,24 @@
  */
 
 .home-menu {
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
-  padding-left: 1em;
-  padding-right: 1em;
+  padding-top: 0em;
+  padding-bottom: 0em;
+  padding-left: 50px;
+  padding-right: 2em;
   margin-bottom: 1em;
-  box-shadow: 0 1px 1px rgba(0,0,0,0.10);
-  background: #2d3e50;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.3);
+  background: #fff;
+  z-index: 4;
+  border-bottom: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
 }
 
 .home-menu.open {
-  height: 10em;
+  height: 12em; /* change this accordingly */
 }
 
 .custom-toggle {
@@ -37,7 +46,7 @@
 }
 
 .custom-toggle span {
-  background-color: white;
+  background-color: #{{ site.data.theme.color.dark }};
   display: block;
   width: 24px;
   height: 2px;
@@ -73,6 +82,42 @@
   transform: rotate(0deg) scale(0.2,0.2);
 }
 
+.vertical-align-center{
+  vertical-align: middle;
+  position: relative;
+  top: 15px;;
+}
+
+.pure-menu.pure-menu-fixed{
+  border-bottom: none;
+  z-index: 4;
+}
+
+.home-menu .pure-menu-heading{
+  color: white;
+  font-weight: 400;
+  font-size: 120%;
+}
+
+.home-menu .pure-menu-heading img{
+  height: 40px;
+}
+
+.home-menu .pure-menu-selected a{
+  color: white;
+}
+
+.home-menu a {
+  color: #{{ site.data.theme.color.dark }};
+}
+
+.home-menu li a:hover,
+.home-menu li a:focus {
+  background: none;
+  border: none;
+  color: #{{ site.data.theme.color.primary }};
+}
+
 @media (max-width: 47.999em){
   .custom-toggle {
     display: block;
@@ -82,43 +127,16 @@
     display: none;
   }
 
+  .vertical-align-center {
+    top: 0px;
+  }
+
   .home-menu.open #menu-list{
     display: block;
   }
 }
 
-.pure-menu.pure-menu-fixed{
-  border-bottom: none;
-  z-index:4;
-}
-
-.home-menu .pure-menu-heading{
-  color: white;
-  font-weight: 400;
-  font-size: 120%;
-}
-
-.home-menu .pure-menu-selected a{
-  color: white;
-}
-
-.home-menu a {
-  color: #6fbef3;
-}
-
-.home-menu li a:hover,
-.home-menu li a:focus {
-  background: none;
-  border: none;
-  color: #aecfe5;
-}
-
-/*
- * --- TABLET MEDIA QUERIES ---
- */
 @media (min-width: 48em) {
-
-  /* --- MENU STYLE --- */
   .home-menu {
     text-align: left;
   }
@@ -131,6 +149,13 @@
     float: right;
     display: inline-block;
   }
+}
+
+/*
+ * --- TABLET MEDIA QUERIES ---
+ */
+@media (min-width: 48em) {
+
 
 }
 
