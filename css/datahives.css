@@ -14,10 +14,77 @@
  */
 
 .home-menu {
-  padding: 0.5em;
-  text-align: center;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-bottom: 1em;
   box-shadow: 0 1px 1px rgba(0,0,0,0.10);
   background: #2d3e50;
+}
+
+.home-menu.open {
+  height: 10em;
+}
+
+.custom-toggle {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  display: none;
+}
+
+.custom-toggle span {
+  background-color: white;
+  display: block;
+  width: 24px;
+  height: 2px;
+  border-radius: 3px;
+  position: relative;
+  margin-bottom: 5px;
+  top: 18px;
+  right: 7px;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.custom-toggle.x span:first-child {
+  transform-origin: 0% 0%;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg) translate(-2px, -1px);;
+}
+
+.custom-toggle.x span:nth-last-child(1){
+  transform-origin: 0% 100%;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg) translate(-1px, 0px);;
+}
+
+.custom-toggle.x span:nth-last-child(2){
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2,0.2);
+}
+
+@media (max-width: 47.999em){
+  .custom-toggle {
+    display: block;
+  }
+
+  #menu-list{
+    display: none;
+  }
+
+  .home-menu.open #menu-list{
+    display: block;
+  }
 }
 
 .pure-menu.pure-menu-fixed{
