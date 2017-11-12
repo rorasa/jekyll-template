@@ -6,6 +6,9 @@ color:
   dark: 574712
   darkgray: 444444
   lightgray: 888888
+  red: ED5246
+  green: 34D500
+  blue: 3096EB
 
 font:
   primary: '"Open Sans", Arial, sans-serif'

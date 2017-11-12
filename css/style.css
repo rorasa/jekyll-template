@@ -1,0 +1,133 @@
+---
+---
+body {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 16px;
+}
+
+.section{
+  position: relative;
+}
+
+h1{
+  font-weight: bold;
+  font-size: 2em;
+}
+
+h2{
+  font-weight: 200;
+  font-size: 1.4em;
+}
+
+.bottom-panel{
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
+  max-width: 80%;
+  max-height: 100%;
+  /*overflow: hidden;*/
+}
+
+.top-panel{
+  position: absolute;
+  top:10%;
+  margin-left: 2em;
+}
+
+.aligh-right{
+  text-align: right;
+}
+
+.label{
+  color: black;
+  background-color: rgba(255,255,255,0.8);
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 0.9em;
+}
+
+.separator{
+  display: inline-block;
+  width: 10px;
+}
+
+#page1 h2{
+  color: #{{ site.data.theme.color.red }};
+}
+
+#page2 {
+  color: rgba(255,255,255,0.8);
+}
+#page2 h1{
+  color: white;
+}
+#page2 h2{
+  color: rgba(255,255,255,0.8);
+  margin-bottom: 2em;
+}
+#page2 a{
+  color: inherit;
+}
+#page2 a:hover{
+  color: #{{ site.data.theme.color.primary }};
+}
+
+#page3 {
+  color: white;
+}
+#page3 h2{
+  color: rgba(255,255,255,0.8);
+  margin-bottom: 2em;
+}
+#page3 a{
+  color: inherit;
+}
+#page3 a:hover{
+  color: #{{ site.data.theme.color.primary }};
+}
+
+#page4 h2{
+  color: rgba(0,0,0,0.8);
+}
+#page4 a{
+  color: inherit;
+}
+#page4 a:hover{
+  color: #{{ site.data.theme.color.primary }};
+}
+
+#page5 {
+  color: white;
+}
+#page5 h2{
+  color: rgba(255,255,255,0.8);
+}
+#page5 a{
+  color: inherit;
+}
+#page5 a:hover{
+  color: #{{ site.data.theme.color.primary }};
+}
+
+#page6 {
+  color: white
+}
+#page6 h1{
+  margin-bottom: 2em;
+}
+#page6 h2{
+  color: rgba(255,255,255,0.8);
+}
+#page6 a{
+  color: inherit;
+}
+#page6 a:hover{
+  color: #{{ site.data.theme.color.primary }};
+}
+
+@media all and (min-width: 568px){
+  body{
+    font-size: 16px;
+  }
+}
