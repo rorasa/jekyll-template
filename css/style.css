@@ -5,6 +5,17 @@ body {
   font-size: 16px;
 }
 
+.home-menu{
+  margin: 0;
+  position: relative;
+}
+
+.pure-menu-heading span{
+  position: relative;
+  top: -12px;
+  color: black;0
+}
+
 .section{
   position: relative;
 }
