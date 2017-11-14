@@ -97,6 +97,10 @@ h2{
   color: #{{ site.data.theme.color.green }};
 }
 
+.link- a{
+  color: inherit;
+}
+
 .float-left{
   float: left;
   margin-right: 1em;
@@ -146,6 +150,9 @@ h2{
 }
 .content-area img{
   max-width: 250px;
+}
+.content-area .full-size{
+  max-width: 80%;
 }
 
 #page1 h2{
