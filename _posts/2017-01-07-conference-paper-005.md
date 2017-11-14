@@ -16,7 +16,8 @@ color: ''
 
 **DOI**: [10.13140/2.1.4501.7929](http://dx.doi.org/10.13140/2.1.4501.7929)
 
-**Find it on**: [ResearchGate](https://www.researchgate.net/publication/270903001_Efficient_Reconstruction_of_Functional_Magnetic_Resonance_Imaging_%28fMRI%29_Data_From_Compressive_Measurements_Based_On_Correlated_Reference)
+**Find it on**: [ResearchGate](https://www.researchgate.net/publication/270903001_Efficient_Reconstruction_of_Functional_Magnetic_Resonance_Imaging_fMRI_Data_From_Compressive_Measurements_Based_On_Correlated_Reference)
+
 
 **Copy BiBTeX**:
 
@@ -24,7 +25,7 @@ color: ''
 @inproceedings{hotrakool2014efficient,
 author={Hotrakool, Wattanit and Abhayaratne, Charith},
 booktitle={10th {IMA} International Conference on Mathematics in Signal Processing},
-title={{Efficient Reconstruction of Functional Magnetic Resonance Imaging (fMRI) Data From Compressive Measurements Based On Correlated Reference}},
+title={Efficient Reconstruction of Functional Magnetic Resonance Imaging {(fMRI)} Data From Compressive Measurements Based On Correlated Reference},
 year={2014},
 month={December}}
 ```

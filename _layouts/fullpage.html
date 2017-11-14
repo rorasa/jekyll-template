@@ -1,5 +1,47 @@
 {% include head.html %}
 
+<div class="home-menu main-menu pure-g" id="menu">
+  <div class="pure-u-1 pure-u-md-1-3">
+    <div class="">
+      <a href="{{ site.url }}" class="pure-menu-heading">
+        <img src="{{ site.url }}/img/logo.png"/>
+        <span>Wattanit.info</span>
+      </a>
+      <a href="#" class="custom-toggle" id="toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </a>
+    </div>
+  </div>
+  <div class="pure-u-1 pure-u-md-2-3" id="menu-list">
+    <div class="pure-menu pure-menu-horizontal custom-can-transform">
+      <ul class="pure-menu-list vertical-align-center">
+        <li class="pure-menu-item"><a href="{{site.url}}" class="pure-menu-link">Home</a></li>
+        <li class="pure-menu-item"><a href="{{site.url}}/research.html" class="pure-menu-link">Research</a></li>
+        <li class="pure-menu-item"><a href="{{site.url}}/software.html" class="pure-menu-link">Software</a></li>
+        <li class="pure-menu-item"><a href="#" class="pure-menu-link">Blog</a></li>
+        <li class="pure-menu-item"><a href="{{site.url}}/#page6" class="pure-menu-link">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
 {{ content }}
 
-{% include end.html %}
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+<script type="text/javascript" src="{{ site.url }}/js/jquery.fullpage.min.js"></script>
+<script type="text/javascript" src="{{ site.url }}/js/scrolloverflow.min.js"></script>
+<script>
+$(document).ready(function() {
+	$('#fullpage').fullpage({
+    navigation: true,
+    scrollOverflow: true,
+    sectionsColor : ['#fff', '#3096EB','#ED5246','#34D500','#ED5246','#3096EB'],
+  });
+});
+</script>
+{% include scripts.html %}
