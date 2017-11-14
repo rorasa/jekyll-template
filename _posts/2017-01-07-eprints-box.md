@@ -2,7 +2,6 @@
 layout: posts
 title: 'EPrints-box'
 categories: software
-permalink: eprints-box.html
 color: ''
 ---
 

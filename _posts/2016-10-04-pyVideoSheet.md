@@ -2,7 +2,6 @@
 layout: posts
 title: 'pyVideoSheet'
 categories: software
-permalink: pyVideoSheet.html
 color: ''
 ---
 

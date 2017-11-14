@@ -8,13 +8,13 @@ color: 'green'
 
 Automatic photo gallery preview generator using machine learning
 
-## [EPrints-box]({{site.url}}/eprints-box.html) and EPrints-dock
+## [EPrints-box]({{site.url}}{% post_url 2017-01-07-eprints-box %}) and EPrints-dock
 
 The vagrant box and the Docker container preconfigured to run [EPrints](http://www.eprints.org/) repository system.
 
 ![EPrints]({{site.url}}/img/software-1.png)
 
-## [pyVideoSheet]({{site.url}}/pyVideoSheet.html)
+## [pyVideoSheet]({{site.url}}{% post_url 2016-10-04-pyVideoSheet %})
 
 Python video thumbnail contact sheet creator
 
