@@ -15,6 +15,12 @@ body {
   top: -12px;
   color: black;0
 }
+.home-menu.open{
+  height: 15em;
+}
+.home-menu li a:hover{
+  color: #{{ site.data.theme.color.blue }};
+}
 
 .section{
   position: relative;
@@ -56,6 +62,13 @@ h2{
   background-color: #{{ site.data.theme.color.red }};
   color: white
 }
+.link-red a{
+  color: inherit;
+}
+.link-red a:hover{
+  color: #{{ site.data.theme.color.red }};
+}
+
 .text-blue{
   color: #{{ site.data.theme.color.blue }};
 }
@@ -63,12 +76,25 @@ h2{
   background-color: #{{ site.data.theme.color.blue }};
   color: white;
 }
+.link-blue a{
+  color: inherit;
+}
+.link-blue a:hover{
+  color: #{{ site.data.theme.color.blue }};
+}
+
 .text-green{
   color: #{{ site.data.theme.color.green }};
 }
 .background-green{
   background-color: #{{ site.data.theme.color.green }};
   color: black;
+}
+.link-green a{
+  color: inherit;
+}
+.link-green a:hover{
+  color: #{{ site.data.theme.color.green }};
 }
 
 .float-left{
@@ -111,7 +137,12 @@ h2{
 .content-area h2{
   color: black;
   clear: both;
-  margin-top: 1em;
+  padding-top: 2em;
+}
+.content-area h1{
+  color: black;
+  clear: both;
+  padding-top: 1.5em;
 }
 .content-area img{
   max-width: 250px;
