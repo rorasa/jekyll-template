@@ -60,16 +60,16 @@ This project has finished in 2010.
 
 # Selected publications
 
-- W. Hotrakool, C. Abhayaratne, [**&ldquo;Towards Baseline-independent Analysis of Compressive Sensed Functional Magnetic Resonance Image Data&rdquo;**](), *Proceedings of 2017 22nd Digital Signal Processing conference (DSP2017), 2017*.
+- W. Hotrakool, C. Abhayaratne, [**&ldquo;Towards Baseline-independent Analysis of Compressive Sensed Functional Magnetic Resonance Image Data&rdquo;**]({{site.url}}{% post_url 2017-11-14-conference-paper-007 %}), *Proceedings of 2017 22nd Digital Signal Processing conference (DSP2017), 2017*.
 
-- W. Hotrakool, C. Abhayaratne [**&ldquo;An Optimal Learning Parameter for Running Gaussian-based Referenced Compressive Sensing&rdquo;**](), *Proceedings of 2nd IET International Conference on Intelligent Signal Processing 2015 (ISP2015), 2015*.
+- W. Hotrakool, C. Abhayaratne [**&ldquo;An Optimal Learning Parameter for Running Gaussian-based Referenced Compressive Sensing&rdquo;**]({{site.url}}{% post_url 2017-01-07-conference-paper-006 %}), *Proceedings of 2nd IET International Conference on Intelligent Signal Processing 2015 (ISP2015), 2015*.
 
-- W. Hotrakool, C. Abhayaratne [**&ldquo;Efficient Reconstruction of Functional Magnetic Resonance Imaging (fMRI) Data From Compressive Measurements Based On Correlated Reference&rdquo;**](), *Proceedings of 10th IMA International Conference on Mathematics in Signal Processing, 2014*.
+- W. Hotrakool, C. Abhayaratne [**&ldquo;Efficient Reconstruction of Functional Magnetic Resonance Imaging (fMRI) Data From Compressive Measurements Based On Correlated Reference&rdquo;**]({{site.url}}{% post_url 2017-01-07-conference-paper-005 %}), *Proceedings of 10th IMA International Conference on Mathematics in Signal Processing, 2014*.
 
-- W. Hotrakool, C. Abhayaratne [**&ldquo;Running Gaussian reference-based reconstruction for video compressed sensing&rdquo;**](), *Proceedings of 2014 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2014*.
+- W. Hotrakool, C. Abhayaratne [**&ldquo;Running Gaussian reference-based reconstruction for video compressed sensing&rdquo;**]({{site.url}}{% post_url 2017-01-07-conference-paper-004 %}), *Proceedings of 2014 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2014*.
 
-- W. Hotrakool, C. Abhayaratne [**&ldquo;Fast Compressed Sensing Reconstruction Using The Least Squares and Signal Correlation&rdquo;**](), *Proceedings of IET Intelligent Signal Processing Conference 2013 (ISP 2013), 2013*.
+- W. Hotrakool, C. Abhayaratne [**&ldquo;Fast Compressed Sensing Reconstruction Using The Least Squares and Signal Correlation&rdquo;**]({{site.url}}{% post_url 2017-01-07-conference-paper-003 %}), *Proceedings of IET Intelligent Signal Processing Conference 2013 (ISP 2013), 2013*.
 
-- W.Hotrakool, P. Siritanawan, T. Kondo [**&ldquo;A Real-time Eye-tracking Method Using Time-varying Gradient Orientation Patterns&rdquo;**](), *Proceedings of the 2010 International Conference on Electrical Engineering/Electronics Computer Telecommunications and Information Technology (ECTI-CON), 2010*.
+- W.Hotrakool, P. Siritanawan, T. Kondo [**&ldquo;A Real-time Eye-tracking Method Using Time-varying Gradient Orientation Patterns&rdquo;**]({{site.url}}{% post_url 2017-01-07-conference-paper-002 %}), *Proceedings of the 2010 International Conference on Electrical Engineering/Electronics Computer Telecommunications and Information Technology (ECTI-CON), 2010*.
 
-- W. Hotrakool, P. Siritanawan, T. Kondo [**&ldquo;Real-time Gradient Orientation Pattern Matching&rdquo;**](), *Proceedings of the International Conference on Embedded System and information Technology (ICESIT) 2010, 2010*.
+- W. Hotrakool, P. Siritanawan, T. Kondo [**&ldquo;Real-time Gradient Orientation Pattern Matching&rdquo;**]({{site.url}}{% post_url 2017-01-07-conference-paper-001 %}), *Proceedings of the International Conference on Embedded System and information Technology (ICESIT) 2010, 2010*.
